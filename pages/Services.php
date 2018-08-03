@@ -37,7 +37,7 @@
         </section>
 		<?php 
 	if($_POST["pic"]!=null){
-	$sqluser = "INSERT INTO hakathon.recuest(ID,price,accepted,Latitude,Longitude,Minutes, Image2) VALUES (123,42,0,0.0,0.0".$_POST['mins'].",'".$_POST['pic']."');";
+	$sqluser = "INSERT INTO heroku_b5e473d9b007cb2.recuest(ID,price,accepted,Latitude,Longitude,Minutes, Image2) VALUES (123,42,0,0.0,0.0".$_POST['mins'].",'".$_POST['pic']."');";
 	mysql_query($sqluser);
 	
 	echo '<script language="javascript">window.location.href ="Wait.php"</script>';
