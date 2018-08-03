@@ -1,0 +1,116 @@
+/* background color { */
+
+.bColor-0 {
+    background: #fff;
+}
+
+.bColor-1 {
+    background: #0a68b2;
+}
+
+/* background color } */
+
+/* text color { */
+
+.tColor-0 {
+    color: #fff
+}
+
+.tColor-1 {
+    color: #0a68b2;
+}
+
+.tColor-2 {
+    color: #414141;
+}
+
+/* text color } */
+
+/* Logo { */
+
+.Logo {
+    height: auto;
+    width: auto;
+}
+
+/* Logo } */
+
+/* input { */
+
+.pushMeInput {
+    background: #fff;
+    border: #fff;
+    margin-bottom: 0px;
+}
+
+/* input } */
+
+/* button {*/
+
+.pushMeButton {
+    background: #fff;
+    color: #414141;
+    border: 1px solid transparent;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px
+}
+
+.pushMeButton img {
+    height: 150px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.pushMeButton:hover {
+    background: #fff;
+    color: #0a68b2;
+    border: 1px solid #0a68b2;
+}
+
+/* button }*/
+
+.Border-r-100 {
+    border-radius: 100%;
+}
+
+/* table { */
+
+table thead {
+    background: #0a68b2;
+    color: #fff;
+    font-size: 20px;
+}
+
+table.unstriped tbody tr {
+    background: #0a68b2;
+    color: #fff;
+    font-size: 20px
+}
+
+table.unstriped tbody tr td {
+    border: 3px solid #fff;
+}
+
+table.unstriped thead th {
+    border: 3px solid #fff;
+}
+
+table.unstriped tbody tr td a {
+    color: #fff
+}
+
+/* table } */
+
+/*Font {*/
+
+@font-face {
+    font-family: AlJazeerah;
+    src: url("../Al-Jazeera-Arabic-Regular.ttf");
+}
+
+body {
+    font-family: 'AlJazeerah';
+}
+
+/*Font }*/ 
