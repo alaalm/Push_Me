@@ -53,7 +53,7 @@
 
 			 
 if ($_SESSION['name']==null && $_POST['mail']!= null && $_POST['pass']!=null){
-$regester ="SELECT * FROM hakathon.providor WHERE email=".$_POST['mail']." and password='".$_POST['pass']."';";
+$regester ="SELECT * FROM heroku_b5e473d9b007cb2.providor WHERE email=".$_POST['mail']." and password='".$_POST['pass']."';";
 
 $result = mysql_query($regester);
 		while ($row = mysql_fetch_assoc($result)){
