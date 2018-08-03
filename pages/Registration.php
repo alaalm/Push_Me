@@ -89,7 +89,7 @@
 
 if( $_POST['name']!= null&& $_POST['mail']!= null&&$_POST['NID'] != null && $_POST['mobile'] != null && $_POST['pass'] != null && $_POST['Picture'] != null && $_POST['IDScan'] != null){
 		
-	$sqluser = "INSERT INTO hakathon.providor(name, email, mobile, password, ID, personalPicture, IDscan)
+	$sqluser = "INSERT INTO heroku_b5e473d9b007cb2.providor(name, email, mobile, password, ID, personalPicture, IDscan)
 VALUES ('".$_POST['name']."','".$_POST['mail']."',".$_POST['mobile'].",'".$_POST['pass']."',".$_POST['NID'].",'".$_POST['Picture']."','".$_POST['IDScan']."');";
  mysql_query($sqluser);
      echo '<script language="javascript">window.location.href ="LogIn.php"</script>';
